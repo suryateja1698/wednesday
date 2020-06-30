@@ -63,7 +63,7 @@ func handleRequests() {
 
 func main() {
 
-	db, err = gorm.Open("mysql", "root:MSDhoni@7@tcp(127.0.0.1:3306)/My?charset=utf8&parseTime=True")
+	db, err = gorm.Open("mysql", "root:*****@tcp(127.0.0.1:3306)/My?charset=utf8&parseTime=True")
 
 	if err != nil {
 		log.Println("Unable to connect to database")
